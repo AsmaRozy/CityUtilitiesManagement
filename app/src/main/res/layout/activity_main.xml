@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bd.city.utility.management.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_welcome"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="334dp"
+        android:layout_height="166dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/city_logo" />
+
+    <ImageView
+        android:id="@+id/nagar_vobon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nagar_vobon"
+        android:layout_margin="20dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>

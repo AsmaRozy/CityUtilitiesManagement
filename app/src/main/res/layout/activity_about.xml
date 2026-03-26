@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/tv_his"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/about_his"
+        android:textSize="18sp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_dhis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/about_dhis"
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/tv_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/about_loc"
+        android:textSize="18sp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_dloc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/about_dloc"
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/tv_vol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/about_vol"
+        android:textSize="18sp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_dvol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/about_dvol"
+        android:textSize="13sp" />
+
+</LinearLayout>

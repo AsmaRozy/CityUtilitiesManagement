@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bd.city.utility.management.ReportUtilityListActivity">
+
+    <TextView
+        android:id="@+id/portal_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <GridView
+        android:id="@+id/utility_list"
+        android:numColumns="2"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+    </GridView>
+
+    <TextView
+        android:id="@+id/my_issues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text = "@string/report_myissues"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="viewMyReport"/>
+
+    <GridView
+        android:id="@+id/reported_issuelist"
+        android:numColumns="1"
+        android:verticalSpacing="10dp"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:scrollbars="vertical">
+    </GridView>
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">City Utilities Management App</string>
+    <string name="app_welcome">Welcome to City \nUtilities Manager</string>
+    <string name="login_activity">User Login</string>
+    <string name="login_title">Enter User Login Information</string>
+    <string name="login_username">Username </string>
+    <string name="login_etUser">Enter username</string>
+    <string name="login_password">Password </string>
+    <string name="login_etPass">Enter password</string>
+    <string name="login_btLogin">Login</string>
+    <string name="login_btRegis">Register</string>
+    <string name="login_newUser">Are you already registered! \n Otherwise register your user at first</string>
+    <string name="regi_activity">User Registration</string>
+    <string name="regi_title">Enter User Information</string>
+    <string name="regi_userid">User Id *</string>
+    <string name="regi_etId">Enter user id</string>
+    <string name="regi_username">Username </string>
+    <string name="regi_etUser">Enter username</string>
+    <string name="regi_mobile">Mobile No </string>
+    <string name="regi_etMobile">Enter mobile no</string>
+    <string name="regi_mail">User Email </string>
+    <string name="regi_etMail">Enter your email</string>
+    <string name="regi_password">Password </string>
+    <string name="regi_etPass">Enter password</string>
+    <string name="regi_roll">User Roll</string>
+    <string name="regi_etRoll">Enter user roll</string>
+    <string name="regi_btRegis">Register</string>
+    <string name="utility_portal">Admin Work Portal</string>
+    <string name="utility_solution">Solution Counter</string>
+    <string name="utility_account">Manage Account</string>
+    <string name="utility_issuesol">View Reported Issues</string>
+    <string name="utility_birth">Manage Birth Certificate</string>
+    <string name="utility_total">Total</string>
+    <string name="utility_solved">Solved</string>
+    <string name="utility_process">In Process</string>
+    <string-array name="admin">
+        <item>@string/utility_account</item>
+        <item>@string/utility_birth</item>
+        <item>@string/utility_issuesol</item>
+    </string-array>
+    <string name="utility_userissues">User Reported Issues</string>
+    <string name="utility_status">Status</string>
+    <string-array name="adminIssue">
+        <item>@string/utility_total</item>
+        <item>@string/utility_solved</item>
+        <item>@string/utility_process</item>
+    </string-array>
+    <string name="report_activity">User Report Submission</string>
+    <string name="report_portal">User Report Portal</string>
+    <string name="report_issue">Raise Issue</string>
+    <string name="report_road">Road</string>
+    <string name="report_light">Street Light</string>
+    <string name="report_water">Water</string>
+    <string name="report_drainage">Drainage</string>
+    <string name="report_garbage">Garbage</string>
+    <string name="report_mosquito">Mosquito</string>
+    <string name="report_birth">Birth Register</string>
+    <string name="report_call">Call to 999</string>
+    <string-array name="user">
+        <item>@string/report_road</item>
+        <item>@string/report_light</item>
+        <item>@string/report_water</item>
+        <item>@string/report_drainage</item>
+        <item>@string/report_garbage</item>
+        <item>@string/report_mosquito</item>
+        <item>@string/report_birth</item>
+        <item>@string/report_call</item>
+    </string-array>
+    <string name="report_myissues">My Reported Issues</string>
+    <string name="report_solutionTitle">Report Solution Counter</string>
+    <string name="report_placeImg">Location Image</string>
+    <string name="report_description">Description</string>
+    <string name="report_tvstatus">Report Status</string>
+    <string name="report_btupdate">Update Report</string>
+    <string name="report_btdelete">Delete Report</string>
+    <string name="capture"> Capture relevant photo and submit issue</string>
+    <string name="location"> Location :</string>
+    <string name="etlocation"> Select Location </string>
+    <string name="issue_id"> Issue ID :</string>
+    <string name="issue"> Issue Type</string>
+    <string name="issue_type"> Select Issue Type </string>
+    <string name="etdetails"> Describe the issue...</string>
+    <string name="submit">Submit Report</string>
+    <string name="usermanage_activity">User Management</string>
+    <string name="usermanage_title">User id must be entered to update or delete user!</string>
+    <string name="usermanage_btview">View</string>
+    <string name="usermanage_btupdate">Update</string>
+    <string name="usermanage_btdelete">Delete</string>
+    <string name="title_report">Report the Problem</string>
+    <string name="title_activity_maps2">Map Activity</string>
+    <string name="birth_activity">Apply For Birth Certificate</string>
+    <string name="birth_title">Fill-in the information</string>
+    <string name="birth_fn">First Name:* </string>
+    <string name="birth_ln">Last Name:* </string>
+    <string name="birth_etfn">Enter First Name</string>
+    <string name="birth_etln">Enter Last Name</string>
+    <string name="birth_date">Birth Date:*\n(dd-mm-yyyy)</string>
+    <string name="birth_etdate">Enter birth date </string>
+    <string name="birth_gender">Gender:* </string>
+    <string name="birth_etgender">Select Gender </string>
+    <string name="birth_childno">Parents Child No:* </string>
+    <string name="birth_etchildno">Select Child No </string>
+    <string name="brtadd_title">Address of Birth Place</string>
+    <string name="birth_country">Country:* </string>
+    <string name="birth_etcountry">Enter Your Country </string>
+    <string name="birth_div">Division:* </string>
+    <string name="birth_etdiv">Enter Your Division</string>
+    <string name="birth_dist">District:* </string>
+    <string name="birth_etdist">Enter Your District </string>
+    <string name="birth_upazila">Upazila:* </string>
+    <string name="birth_etupazila">Enter Your Upazila </string>
+    <string name="birth_post">Post Office:* </string>
+    <string name="birth_etpost">Enter Your Post Office </string>
+    <string name="birth_ward">Ward No:* </string>
+    <string name="birth_etward">Select Word </string>
+    <string name="birth_po">Post Office: </string>
+    <string name="birth_etpo">Enter Post Office</string>
+    <string name="birth_vill">Village:* </string>
+    <string name="birth_etvill">Enter Village</string>
+    <string name="birth_road">House and Road: </string>
+    <string name="birth_etroad">Road name, House number</string>
+    <string name="birth_btapply">Apply</string>
+    <string name="birth_btcert">View Certificate</string>
+
+    <string name="about_his">History/Location/Size of Barisal</string>
+    <string name="about_dhis">Among the history of greater Barisal is the history of the rivers and canals of this region. The innumerable rivers spread across the entire area like Kajal have been constantly creating new history since prehistoric times.The process of incessant creation and destruction of rivers continues.
+The land of Chandradwip-Baklan is only about fifty thousand years old. Since the beginning of its creation, this land has changed its shape repeatedly. That is why the changes in the geo-structure of different regions of Chandradwip-Bakla are observed.
+The present-day Gournadi, Ujirpur, Banaripara, Swarupkathi, Hijla, Muladi, Mehendiganj, Nalchiti, Jhalkathi, Betagi, Rajapur Kaukhali, Bhandaria, Pirojpur, Nazirpur, Mirzaganj, Baufal, Borhanuddin etc. regions are one of the areas created in the first stage of Barisal.
+The list of territories created in the second phase includes Kanthalia, Amtali, Galachipa and Daulatkhan.
+In the third phase, the land formation process of Barguna, Patharghata, Khepupara and Manpura was completed.
+The land areas created in the second and third phase have been playing a special role in the modern land formation by participating in the process of destruction. And in view of that, various changes are being initiated in the lower plains of Barisal region. This ongoing process of land accretion has turned Greater Barisal into an active delta.
+</string>
+    <string name="about_loc">Geographical location</string>
+    <string name="about_dloc">Barisal District is located at 220 42 0 North Latitude and 90022 0 East Longitude.</string>
+    <string name="about_vol">Volume</string>
+    <string name="about_dvol">The total area of the district is 2,791 square kilometers.</string>
+
+
+
+</resources>

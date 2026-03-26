@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="bd.city.utility.management.BirthCertificateActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/tv_birthtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/birth_title"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_birthtitle"
+            android:text="@string/birth_fn"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/et_fname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_birthtitle"
+            android:layout_toEndOf="@+id/tv_fname"
+            android:ems="15"
+            android:gravity="center"
+            android:hint="@string/birth_etfn"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_lname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/birth_ln"
+            android:layout_below="@+id/tv_fname"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/et_lname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_fname"
+            android:layout_toEndOf="@+id/tv_lname"
+            android:ems="15"
+            android:gravity="center"
+            android:hint="@string/birth_etln"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_birthdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_lname"
+            android:text="@string/birth_date"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/et_birthdate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_lname"
+            android:layout_toEndOf="@+id/tv_birthdate"
+            android:ems="15"
+            android:gravity="center"
+            android:hint="@string/birth_etdate"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/tv_gen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_birthdate"
+            android:text="@string/birth_gender"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="95dp"/>
+
+        <Spinner
+            android:id="@+id/et_gen"
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tv_birthdate"
+            android:layout_toEndOf="@+id/tv_gen"
+            android:spinnerMode="dropdown"
+            android:background="@android:drawable/btn_dropdown"
+            android:transitionName="@string/birth_etgender"/>
+
+        <TextView
+            android:id="@+id/tv_childNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_gen"
+            android:text="@string/birth_childno"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+
+        <Spinner
+            android:id="@+id/et_childNo"
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/tv_gen"
+            android:layout_toEndOf="@+id/tv_childNo"
+            android:spinnerMode="dropdown"
+            android:background="@android:drawable/btn_dropdown"
+            android:transitionName="@string/birth_childno"/>
+
+        <TextView
+            android:id="@+id/tv_addrestitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_childNo"
+            android:gravity="center"
+            android:text="@string/brtadd_title"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_addrestitle"
+            android:text="@string/birth_country"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/et_country"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_addrestitle"
+            android:layout_toEndOf="@+id/tv_country"
+            android:ems="15"
+            android:gravity="center"
+            android:inputType="text"
+            android:hint="@string/birth_etcountry" />
+
+        <TextView
+            android:id="@+id/tv_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_country"
+            android:text="@string/birth_div"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/et_div"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_country"
+            android:layout_toEndOf="@+id/tv_div"
+            android:gravity="center"
+            android:ems="15"
+            android:inputType="text"
+            android:hint="@string/birth_etdiv" />
+
+        <TextView
+            android:id="@+id/tv_dist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_div"
+            android:text="@string/birth_dist"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"/>
+        <EditText
+            android:id="@+id/et_dist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_div"
+            android:layout_toEndOf="@+id/tv_dist"
+            android:gravity="center"
+            android:ems="15"
+            android:inputType="text"
+            android:hint="@string/birth_etdist" />
+
+        <TextView
+            android:id="@+id/tv_upazila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_dist"
+            android:text="@string/birth_upazila"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="24dp"/>
+        <EditText
+            android:id="@+id/et_upazila"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_dist"
+            android:layout_toEndOf="@+id/tv_upazila"
+            android:gravity="center"
+            android:ems="15"
+            android:inputType="text"
+            android:hint="@string/birth_etupazila" />
+
+        <TextView
+            android:id="@+id/tv_ward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_upazila"
+            android:text="@string/birth_ward"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"/>
+        <Spinner
+            android:id="@+id/et_ward"
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tv_upazila"
+            android:layout_toEndOf="@+id/tv_ward"
+            android:spinnerMode="dropdown"
+            android:background="@android:drawable/btn_dropdown"
+            android:transitionName="@string/birth_etpost"/>
+
+        <TextView
+            android:id="@+id/tv_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_ward"
+            android:text="@string/birth_post"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"/>
+        <EditText
+            android:id="@+id/et_post"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_ward"
+            android:layout_toEndOf="@+id/tv_post"
+            android:gravity="center"
+            android:ems="15"
+            android:inputType="text"
+            android:hint="@string/birth_etpost" />
+
+        <TextView
+            android:id="@+id/tv_vil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_post"
+            android:text="@string/birth_vill"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"/>
+        <EditText
+            android:id="@+id/et_vil"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_post"
+            android:layout_toEndOf="@+id/tv_vil"
+            android:gravity="center"
+            android:ems="15"
+            android:inputType="text"
+            android:hint="@string/birth_etvill" />
+
+        <TextView
+            android:id="@+id/tv_road"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_vil"
+            android:text="@string/birth_road"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/et_road"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_vil"
+            android:layout_toEndOf="@+id/tv_road"
+            android:gravity="center"
+            android:ems="15"
+            android:inputType="text"
+            android:hint="@string/birth_etroad" />
+
+
+        <Button
+            android:id="@+id/bt_applybirth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_road"
+            android:layout_marginEnd="20dp"
+            android:text="@string/birth_btapply"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentStart="true"
+            android:onClick="applyCert"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/bt_viewCert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_below="@+id/tv_road"
+            android:layout_toEndOf="@+id/bt_applybirth"
+            android:text="@string/birth_btcert"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="true"
+            android:onClick="viewMyCert"/>
+    </RelativeLayout>
+
+</ScrollView>
+

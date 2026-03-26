@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="bd.city.utility.management.RegistrationActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="@string/regi_title"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tv_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regi_username"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/et_user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="20"
+            android:inputType="textPersonName"
+            android:hint="@string/regi_etUser" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tv_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regi_mobile"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/et_mobile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="20"
+            android:inputType="number"
+            android:hint="@string/regi_etMobile" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tv_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regi_mail"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/et_mail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="20"
+            android:inputType="textEmailAddress"
+            android:hint="@string/regi_etMail" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:id="@+id/tv_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regi_password"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="20"
+            android:inputType="textPassword"
+            android:hint="@string/regi_etPass" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regi_btRegis"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:onClick="regiButton"/>
+</LinearLayout>
